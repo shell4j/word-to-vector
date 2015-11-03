@@ -1512,7 +1512,7 @@ def replaceInternalLinks(text):
                 if last >= 0:
                     pipe = last  # advance
                 curp = e1
-            label = "</mention/>"+inner[pipe + 1:].strip()#################################################!!!!!!!!!!!!!
+            label = "</mention/>"+inner[pipe + 1:].strip()#####!!!!!!!!!!!!!
         #res += text[cur:s] + "</entity/>"+makeInternalLink(title, label) +"</mention/>"+trail
         res += text[cur:s] + "</entity/>"+makeInternalLink(title, label) +trail
         cur = end
