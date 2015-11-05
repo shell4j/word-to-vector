@@ -29,8 +29,8 @@ model=models.Word2Vec(sentences,size=100, window=5, min_count=5, workers=10)
 #model.save("/home/yhuang/work/mymodel1104.txt")
 
 ####这种save方式只保存了数据的向量 没有树的信息
-#model.save_word2vec_format("/home/yhuang/work/mymodel1022.txt", binary=False)
-model.load_word2vec_format("/home/yhuang/work/mymodel1104.txt",binary=False)
+#model.save_word2vec_format("/home/yhuang/work/mymodel1104.txt", binary=False)
+model=Word2Vec.load_word2vec_format("/home/yhuang/work/mymodel1104.txt",binary=False)
 #model1 = models.Word2Vec.load("/home/yhuang/work/mymodel1104.txt")
 #model = models.Word2Vec.load_word2vec_
 
