@@ -72,7 +72,7 @@ public class EmbeddingRel {
 	}
 
 	public double getEntity2EntityRel(String e1, String e2) {
-		return getSim("</entity>" + e1, "</entity>" + e2);
+		return getSim("</entity/>" + e1, "</entity/>" + e2);
 
 	}
 }
