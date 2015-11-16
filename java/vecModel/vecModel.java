@@ -47,7 +47,7 @@ public class vecModel {
 		}//if 
 		else{
 			System.out.println("word not found!");
-			return 1;
+			return 0;
 		}
 		double s=0;
 		double ss1=0;
